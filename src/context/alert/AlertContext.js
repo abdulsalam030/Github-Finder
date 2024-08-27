@@ -15,7 +15,7 @@ export const AlertProvider = ({ children }) => {
       dispatch({
         type: "REMOVE_ALERT",
       });
-    }, 3000);
+    }, 4000);
   };
 
   return (
